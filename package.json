@@ -47,6 +47,7 @@
     "postinstall": "node ./bin/hello.js",
     "setup": "node ./bin/setup.js",
     "netlify:login": "netlify login",
-    "netlify:deploy": "netlify deploy -d public -p"
+    "netlify:deploy": "netlify deploy -d public -p",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
 }

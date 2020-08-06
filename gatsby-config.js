@@ -25,9 +25,9 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful starter",
+    title: "dotsavy",
   },
-  pathPrefix: "/gatsby-contentful-starter",
+  pathPrefix: "/dotsavy",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
